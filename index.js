@@ -87,6 +87,9 @@ else if (xpHeroi <=9000){
 else if (xpHeroi <=10000){
     nivelHeroi = "Imortal"
 }
+else if(xpHeroi <=10001){
+    nivelHeroi ="Radiante"
+}
 else{
-    nivelHeroi = "Radiante"
+    nivelHeroi = "(ERRO)"
 }
