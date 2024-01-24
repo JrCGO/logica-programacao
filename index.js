@@ -1,1 +1,1 @@
-console.log("Olá mundo!")
+let i = prompt("Digite um valor: "
