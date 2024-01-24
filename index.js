@@ -87,9 +87,11 @@ else if (xpHeroi <=9000){
 else if (xpHeroi <=10000){
     nivelHeroi = "Imortal"
 }
-else if(xpHeroi <=10001){
+else if(xpHeroi >=10001){
     nivelHeroi ="Radiante"
 }
 else{
     nivelHeroi = "(ERRO)"
 }
+
+console.log(`O Herói de nome ${nomeHeroi} está no nível de ${nivelHeroi}`)
