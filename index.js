@@ -16,7 +16,7 @@
 // Ao final deve se exibir uma mensagem:
 // "O Herói de nome **{nome}** está no nível de **{nivel}**"
 
-//Switch//
+//switch//
 let xpHeroi = prompt("Digite um número: ")
 let nomeHeroi = prompt("Digite o nome do Herói: ")
 let nivelHeroi
