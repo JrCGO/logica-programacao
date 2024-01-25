@@ -16,7 +16,7 @@
 // Ao final deve se exibir uma mensagem:
 // "O Herói de nome **{nome}** está no nível de **{nivel}**"
 
-//switch//
+//*****switch*****//
 let xpHeroi = prompt("Digite um número: ")
 let nomeHeroi = prompt("Digite o nome do Herói: ")
 let nivelHeroi
@@ -61,37 +61,37 @@ switch (true){
 console.log(`O Herói de nome ${nomeHeroi} está no nível de ${nivelHeroi}`)
 
 
-//if else if
-let xpHeroi = prompt("Digite um valor númerico: ")
-let nomeHeroi = prompt("Digite o nome do Herói: ")
-let nivelHeroi
-
-if (xpHeroi < 1000){
-    nivelHeroi = "Ferro"
-}
-else if (xpHeroi <=2000){
-    nivelHeroi = "Bronze"
-}
-else if (xpHeroi <=5000){
-    nivelHeroi = "Prata"
-}
-else if (xpHeroi <=7000){
-    nivelHeroi = "Ouro"
-}
-else if (xpHeroi <=8000){
-    nivelHeroi = "Platina"
-}
-else if (xpHeroi <=9000){
-    nivelHeroi = "Ascendente"
-}
-else if (xpHeroi <=10000){
-    nivelHeroi = "Imortal"
-}
-else if(xpHeroi >=10001){
-    nivelHeroi ="Radiante"
-}
-else{
-    nivelHeroi = "(ERRO)"
-}
-
-console.log(`O Herói de nome ${nomeHeroi} está no nível de ${nivelHeroi}`)
+//*****if else if*****//
+// let xpHeroi = prompt("Digite um valor númerico: ")
+// let nomeHeroi = prompt("Digite o nome do Herói: ")
+// let nivelHeroi
+// 
+// if (xpHeroi < 1000){
+//     nivelHeroi = "Ferro"
+// }
+// else if (xpHeroi <=2000){
+//     nivelHeroi = "Bronze"
+// }
+// else if (xpHeroi <=5000){
+//     nivelHeroi = "Prata"
+// }
+// else if (xpHeroi <=7000){
+//     nivelHeroi = "Ouro"
+// }
+// else if (xpHeroi <=8000){
+//     nivelHeroi = "Platina"
+// }
+// else if (xpHeroi <=9000){
+//     nivelHeroi = "Ascendente"
+// }
+// else if (xpHeroi <=10000){
+//     nivelHeroi = "Imortal"
+// }
+// else if(xpHeroi >=10001){
+//     nivelHeroi ="Radiante"
+// }
+// else{
+//     nivelHeroi = "(ERRO)"
+// }
+// 
+// console.log(`O Herói de nome ${nomeHeroi} está no nível de ${nivelHeroi}`)
