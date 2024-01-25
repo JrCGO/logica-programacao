@@ -2,7 +2,7 @@ inserirPao()
 selecionarTemp()
 ligarTorradeira()
 torrarPao()
-desligarTorradeira
+desligarTorradeira()
 injetarPao()
 
 function inserirPao(){
